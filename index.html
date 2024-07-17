@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de zapatillas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg "  style="background-color:rgb(20, 21, 29)" >
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent" style="color: rgb(192, 188, 188);">
+                <h1 style="font-style: oblique;">Tienda deportiva</h1>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <!-- Modifico la orientacion de los elementos con ms-mx- -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"  style="color: aliceblue;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"  style="color: aliceblue;">Ofertas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color: aliceblue;">Categorias</a>
+                    <ul class="dropdown-menu"  aria-labelledby="navbarDropdown" style="background-color:black;">
+                        <li><a class="dropdown-item" href="#">Running</a></li>
+                        <li><a class="dropdown-item" href="#">Futbol</a></li>
+                        <li><a class="dropdown-item" href="#">Urbano</a></li>
+                        <li><a class="dropdown-item" href="#">Basquet</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"  style="color: aliceblue;">Contacto</a>
+                    </li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search"  aria-label="Search">
+                        <button class="btn" style="background-color: rgb(237, 237, 240);" type="submit">Busqueda</button>
+                    </form>
+                </ul>
+            </div>
+        </div>s
+    </nav>
+
+    <header class="header"></header>
+
+    <main class="main">
+        
+        <h2> Nuestros productos</h2>
+
+        <section class="section">
+        <div class="card" style="--i:url(img/card1.jpg)">
+            <div class="content">
+                <h3>Running</h3>
+                <a href="#">Ver mas</a>
+            </div>
+        </div>
+
+        <div class="card" style="--i:url(img/card2.jpg)">
+            <div class="content">
+                <h3>Basket</h3>
+                <a href="#">Ver mas</a>
+            </div>
+        </div>
+
+        <div class="card" style="--i:url(img/card3.jpg)">
+            <div class="content">
+                <h3>Futbol</h3>
+                <a href="#">Ver mas</a>
+            </div>
+        </div>
+
+        <div class="card" style="--i:url(img/card4.jpg)">
+            <div class="content">
+                <h3>Urbano</h3>
+                <a href="#">Ver mas</a>
+            </div>
+        </div>
+        </section>
+
+        <h2> Las ofertas</h2>
+
+
+        <section class="swiper mySwiper">
+            <div class="swiper-wrapper ">
+
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 1</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 2</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 3</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 4</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 5</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+                <div class="card-carr swiper-slide ">
+                    <div class="card-image ">
+                        <img src="Img/carr1.jpg" alt="card image">
+                    </div>
+                    <div class="carr-content">
+                            <span class="card-tittle">Modelo 6</span>
+                            <span class="card-name">Ultimos talles</span>
+                            <p class="card-body">3 / 6 / 9 cuotas sin interes</p>
+                            <button class="card-btn">Ver stock</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer-container">
+        <div class="footer-left">
+            <h3>Nuestros <span>Datos</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contacto</a>
+                |
+                <a href="#">Blog</a>
+            </p>
+
+            <p class="footer-company-name">Copyright 2023</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <img src="Img/Iconos/location_icon-icons.com_50109.png" alt="">
+                <p><span>Argentina</span>Buenos Aires</p>
+            </div>
+
+            <div>
+                <img src="Img/Iconos/telephone-handle-silhouette_icon-icons.com_73380.png">
+                <p>+11 74**9**258</p>
+            </div>
+            <div>
+                <img src="Img/Iconos/email-black-envelope-back_icon-icons.com_56531.png" alt="">
+                <p><a href="#">tiendadeportiva@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Sobre Nosotros</span>
+                <strong>Tienda Deportiva</strong> es una pagina comercial estatica diseñada con tecnologia HTML, CSS y JavaScript.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><img src="Img/Iconos/Facebook_Square_icon-icons.com_49948.png" alt=""></a>
+                <a href="#"><img src="Img/Iconos/instagram_black_logo_icon_147122.png" alt=""></a>
+                <a href="#"><img src="Img/Iconos/LinkedIn_Rounded_Solid_icon-icons.com_61559.png" alt=""></a>
+                <a href="#"><img src="Img/Iconos/twitter_x_new_logo_x_rounded_icon_256078.png" alt=""></a>
+                <a href="#"><img src="Img/Iconos/You_tube_icon-icons.com_69028.png" alt=""></a>
+            </div>
+        </div>
+
+
+    </footer>
+    
+
+   
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+      <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
