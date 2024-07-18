@@ -20,7 +20,7 @@
 }
 
 .header{
-    background-image: url(img2/banner.jpg);
+    background-image: url(imagenes/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -30,7 +30,7 @@
 }
 
 .main{
-    background-image: url(img2/muro-ladrillo.jpg);
+    background-image: url(imagenes/muro-ladrillo.jpg);
     background-size: cover;
     width: 100%;
     height: 1500px;
@@ -180,10 +180,6 @@
     border: solid black 2px;
 }
 
-
-
-
-
 .footer{
     position: fixed;
     bottom: 0;
@@ -216,7 +212,7 @@
 
 .footer-container h3 {
     color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
+    font: oblique 36px 'Cookie', cursive;
     margin: 0;
 }
 
@@ -280,9 +276,12 @@
 }
 
 .footer-container .footer-center p a {
-    color: #e0ac1c;
     text-decoration: none;
-    ;
+}
+
+.footer-container .footer-center p a:hover {
+    text-decoration: none;
+    color: #e0ac1c;
 }
 
 .footer-container .footer-right {
@@ -329,7 +328,7 @@
 }
 
 .footer-links a:hover {
-    color: #3F71EA;
+    color: #e0ac1c;
 }
 
 @media (max-width: 880px) {
